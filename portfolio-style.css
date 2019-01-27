@@ -1,12 +1,7 @@
 @charset "UTF-8";
-body {
-  margin: 0;
-}
 
-header {
-  width: 100%;
-  margin-left: 5%;
-}
+
+
 
 a {
   color: black;
@@ -21,9 +16,21 @@ nav a {
 header {
   display: block;
   /*background-color: yellow;*/
-  margin-top: 30px;
-  margin-bottom: 30px;
+  padding-top: 5em;
+  border-bottom: 1px solid grey;
+  margin-bottom: 5em;
 }
+
+footer {
+  font-family: "Helvetica", sans-serif;
+  font-size: 13px;
+  position:absolute;
+   bottom:0;
+   width:100%;
+   height:30px;   /* Height of the footer */
+   /*background:#6cf;*/
+}
+
 
 .home {
   font-size: 2.375rem;
@@ -35,6 +42,7 @@ header {
   width: 20%;
   font-family: "Helvetica", sans-serif;
   display: inline-block;
+  padding: 0;
 }
 
 .menu__item{
@@ -54,7 +62,6 @@ header {
 .image{
   width: 100;
   background-color: black;
-  padding-left: 5%;
   /*background-color: red;*/
 }
 
@@ -65,9 +72,12 @@ header {
 
 }
 
-ol,
-ul {
-  margin: 0;
-  padding: 0;
-  list-style: 0;
+/*media Queries*/
+
+@media (min-width: 769px) {
+  .wrapper {
+    width: 70%;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
 }
