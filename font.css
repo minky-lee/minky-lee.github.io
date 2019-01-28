@@ -1,0 +1,14 @@
+/* black-han-sans-regular - latin */
+
+@font-face {
+  font-family: 'Black Han Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url('portfolio/fonts/black-han-sans-v5-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local('Black Han Sans Regular'), local('BlackHanSans-Regular'),
+       url('portfolio/fonts/black-han-sans-v5-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('portfolio/fonts/black-han-sans-v5-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('portfolio/fonts/black-han-sans-v5-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('portfolio/fonts/black-han-sans-v5-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('portfolio/fonts/black-han-sans-v5-latin-regular.svg#BlackHanSans') format('svg'); /* Legacy iOS */
+}
