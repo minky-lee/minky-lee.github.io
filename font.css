@@ -12,3 +12,31 @@
        url('portfolio/fonts/black-han-sans-v5-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
        url('portfolio/fonts/black-han-sans-v5-latin-regular.svg#BlackHanSans') format('svg'); /* Legacy iOS */
 }
+
+/* noto-sans-regular - latin */
+@font-face {
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url('portfolio/fonts/noto-sans-v7-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local('Noto Sans'), local('NotoSans'),
+       url('portfolio/fonts/noto-sans-v7-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('portfolio/fonts/noto-sans-v7-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('portfolio/fonts/noto-sans-v7-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('portfolio/fonts/noto-sans-v7-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('portfolio/fonts/noto-sans-v7-latin-regular.svg#NotoSans') format('svg'); /* Legacy iOS */
+}
+
+/* noto-sans-700 - latin */
+@font-face {
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: url('portfolio/fonts/noto-sans-v7-latin-700.eot'); /* IE9 Compat Modes */
+  src: local('Noto Sans Bold'), local('NotoSans-Bold'),
+       url('portfolio/fonts/noto-sans-v7-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('portfolio/fonts/noto-sans-v7-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
+       url('portfolio/fonts/noto-sans-v7-latin-700.woff') format('woff'), /* Modern Browsers */
+       url('portfolio/fonts/noto-sans-v7-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('portfolio/fonts/noto-sans-v7-latin-700.svg#NotoSans') format('svg'); /* Legacy iOS */
+}
