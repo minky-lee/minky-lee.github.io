@@ -1,3 +1,5 @@
+
+
 var animation = bodymovin.loadAnimation({
   container: document.getElementById('lottie'), // Required
   path: 'hello.json', // Required
