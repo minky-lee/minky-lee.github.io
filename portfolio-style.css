@@ -110,6 +110,14 @@ footer {
   padding: 0;
 }
 
+.text {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+  margin-top: 5em;
+  margin-bottom: 5em;
+}
+
 .worktitle {
   font-size: 2.375rem;
   color: 000000;
@@ -137,8 +145,6 @@ footer {
   font-family: "Noto Sans", sans-serif;
   margin-bottom: 2%;
 }
-
-
 
 .experience{
   margin-bottom: 5em;
@@ -172,6 +178,16 @@ footer {
 .about {
   display: block;
 
+}
+
+#brief {
+  font-family: "Noto Sans", sans-serif;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 30px;
+  padding-left: 7em;
+  padding-right: 7em;
 }
 
 .duration {
