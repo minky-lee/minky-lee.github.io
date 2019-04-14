@@ -75,7 +75,20 @@ footer {
   margin-left: 6em;
 }
 
+#feedback{
+  font-family: "Noto Sans", sans-serif;
+  font-size: 15px;
+  line-height: 25px;
+  margin-bottom: 4em;
+}
 
+#end_of_page{
+  margin-bottom: 10em;
+}
+
+#end_of_document{
+  text-align: center;
+}
 /* -------- class A --------- */
 
 .about {
