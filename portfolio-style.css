@@ -13,7 +13,6 @@ a:hover {
   color: #FF4800;
 }
 
-
 p {
   /*background-color: red;*/
   font-family: "Noto Sans", sans-serif;
@@ -28,6 +27,7 @@ nav a {
 
 ul {
   line-height: 1.5em;
+  margin-bottom: 0.5%;
 }
 
 header {
@@ -35,7 +35,7 @@ header {
   padding-top: 5em;
   padding-bottom: 2em;
   border-bottom: 1px solid grey;
-  margin-bottom: 5em;
+  margin-bottom: 4.5em;
   /*background-color: yellow;*/
 }
 
@@ -43,17 +43,88 @@ footer {
   font-family: "Noto Sans", sans-serif;
   font-size: 13px;
   padding-top: 2em;
-  padding-bottom: 2em;
-  bottom:0;
+  padding-bottom: 5em;
+  /*bottom:0;*/
   width:100%;
   max-width: 1000px;
-  height:30px;   /* Height of the footer */
+  height:40px;   /* Height of the footer */
   background: #ffffff;
   display: block;
   border-top: 1px solid grey;
   margin: 0;
 }
 
+/* -------- id ----------- */
+
+#brief {
+  font-family: "Noto Sans", sans-serif;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 30px;
+  margin-bottom: 2em;
+}
+
+#clearRT{
+  clear: right;
+  margin-right:6em;
+}
+
+#floatLF{
+  float: left;
+  margin-left: 6em;
+}
+
+
+/* -------- class A --------- */
+
+.about {
+  display: block;
+
+}
+
+/* -------- class C --------- */
+
+.content_img{
+  max-width: 950px;
+  display: inline-block;
+}
+
+/* -------- class D --------- */
+
+.description {
+  font-family: "Noto Sans", sans-serif;
+  margin-bottom: 2%;
+}
+
+.date {
+  margin-bottom: 0.5em;
+  color: #C9C9C9;
+}
+
+.duration {
+  margin-bottom: 2%;
+  color: #C9C9C9;
+}
+
+/* -------- class E --------- */
+
+.experience{
+  margin-bottom: 5em;
+  display: inline-block;
+  clear: right;
+}
+
+.education {
+  margin-bottom: 5em;
+  display: inline-block;
+  float: right;
+}
+.expDiv {
+  margin-bottom: 2em;
+}
+
+/* -------- class H--------- */
 
 .home {
   font-size: 2.375rem;
@@ -68,6 +139,19 @@ footer {
   padding: 0;
   /*background-color: red;*/
 }
+
+/* -------- class J --------- */
+
+.jobTitle {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 700;
+  margin-bottom: 0.5em;
+  font-size: 1.1rem;
+  line-height: 1.5em;
+
+}
+
+/* -------- class M --------- */
 
 .menu__item{
   font-size: 1.375rem;
@@ -84,16 +168,52 @@ footer {
 
 }
 
+/* -------- class P --------- */
+
+.prewiew {
+  width: 100%;
+  display: block;
+
+}
+
+.project {
+  margin-bottom: 5em;
+  padding-bottom: 5em;
+  border-bottom: 1px solid #C9C9C9;
+}
+
+.project-last {
+  margin-bottom: 5em;
+  padding-bottom: 5em;
+}
+
+/* -------- class R --------- */
+
+.reference_list{
+  font-family: "Noto Sans", sans-serif;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 30px;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  list-style-type: none;
+}
+
+/* -------- class S --------- */
+
+.sort {
+  font-family: "Noto sans", sans-serif;
+  margin-bottom: 2%;
+  display: block;
+  color: #C9C9C9;
+}
+
+/* -------- class T --------- */
+
 .thumbnail{
   width: 100%;
   background-color: black;
-}
-
-.wrapper {
-  padding-left: 1em;
-  padding-right: 1em;
-  margin: 0 auto;
-  margin-bottom: 0;
 }
 
 .title {
@@ -113,9 +233,18 @@ footer {
 .text {
   font-family: "Noto Sans", sans-serif;
   font-size: 20px;
-  line-height: 30px;
-  margin-top: 5em;
-  margin-bottom: 5em;
+  line-height: 35px;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+/* -------- class W --------- */
+
+.wrapper {
+  padding-left: 1em;
+  padding-right: 1em;
+  margin: 0 auto;
+  margin-bottom: 0;
 }
 
 .worktitle {
@@ -134,67 +263,6 @@ footer {
   line-height: 1.1em;
 }
 
-.sort {
-  font-family: "Noto sans", sans-serif;
-  margin-bottom: 2%;
-  display: block;
-  color: #C9C9C9;
-}
-
-.description {
-  font-family: "Noto Sans", sans-serif;
-  margin-bottom: 2%;
-}
-
-.experience{
-  margin-bottom: 5em;
-  display: inline-block;
-  clear: right;
-}
-
-.education {
-  margin-bottom: 5em;
-  display: inline-block;
-  float: right;
-}
-.expDiv {
-  margin-bottom: 2em;
-}
-
-.date {
-  margin-bottom: 0.5em;
-  color: #C9C9C9;
-}
-
-.jobTitle {
-  font-family: "Noto Sans", sans-serif;
-  font-weight: 700;
-  margin-bottom: 0.5em;
-  font-size: 1.1rem;
-  line-height: 1.5em;
-
-}
-
-.about {
-  display: block;
-
-}
-
-#brief {
-  font-family: "Noto Sans", sans-serif;
-  font-style: italic;
-  font-weight: bold;
-  font-size: 20px;
-  line-height: 30px;
-  padding-left: 7em;
-  padding-right: 7em;
-}
-
-.duration {
-  margin-bottom: 2%;
-  color: #C9C9C9;
-}
-
 .works {
   font-family: "Noto Sans", sans-serif;
   font-weight: 400;
@@ -207,27 +275,8 @@ footer {
 
 }
 
-.prewiew {
-  width: 100%;
-  display: block;
 
-}
-
-.project {
-  margin-bottom: 5em;
-  padding-bottom: 5em;
-  border-bottom: 1px solid #C9C9C9;
-}
-
-.project-last {
-  margin-bottom: 5em;
-  padding-bottom: 5em;
-}
-
-ul {
-  margin-bottom: 0.5%;
-}
-/*media Queries*/
+/*------- media Queries -------*/
 
 @media (min-width: 769px) {
   .wrapper {
@@ -266,7 +315,7 @@ ul {
   }
 
   .container {
-    min-height: calc( 100vh - 53px);
+    min-height: calc( 100vh - 75px);
   }
 
 
