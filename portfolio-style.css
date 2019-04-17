@@ -79,16 +79,14 @@ footer {
   font-family: "Noto Sans", sans-serif;
   font-size: 15px;
   line-height: 25px;
-  margin-bottom: 4em;
+  margin-bottom: 1em;
+  color: #999999;
 }
 
 #end_of_page{
   margin-bottom: 10em;
 }
 
-#end_of_document{
-  text-align: center;
-}
 /* -------- class A --------- */
 
 .about {
@@ -101,6 +99,8 @@ footer {
 .content_img{
   max-width: 950px;
   display: inline-block;
+  margin-top: 2em;
+  margin-bottom: 2em;
 }
 
 /* -------- class D --------- */
