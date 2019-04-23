@@ -90,6 +90,20 @@ footer {
   margin-bottom: 10em;
 }
 
+#margin{
+  margin-top: 6em;
+}
+
+#survey{
+  font-family: "Noto Sans", sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 30px;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  list-style-type: none;
+}
+
 /* -------- class A --------- */
 
 .about {
