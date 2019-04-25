@@ -104,6 +104,15 @@ footer {
   list-style-type: none;
 }
 
+#centre{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 250px;
+  margin-bottom: 10em;
+  margin-top: 10em;
+}
+
 /* -------- class A --------- */
 
 .about {
