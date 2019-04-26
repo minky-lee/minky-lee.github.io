@@ -50,7 +50,7 @@ footer {
   height:40px;   /* Height of the footer */
   background: #ffffff;
   display: block;
-  border-top: 1px solid grey;
+  /*border-top: 1px solid grey;*/
   margin: 0;
 }
 
