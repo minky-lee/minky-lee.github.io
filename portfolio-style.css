@@ -158,8 +158,7 @@ footer {
 
 .education {
   margin-bottom: 5em;
-  display: inline-block;
-  float: right;
+  display: block;
 }
 
 .expDiv {
@@ -360,6 +359,10 @@ footer {
     min-height: calc( 100vh - 75px);
   }
 
-
+  .education {
+    margin-bottom: 5em;
+    display: block;
+    float: right;
+  }
 
 }
