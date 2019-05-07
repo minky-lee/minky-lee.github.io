@@ -20,11 +20,6 @@ p {
   line-height: 1.5em;
 }
 
-nav a {
-  padding-left: 10px;
-  padding-right: 10px;
-}
-
 ul {
   line-height: 1.5em;
   margin-bottom: 0.5%;
@@ -198,15 +193,25 @@ footer {
   font-size: 1.375rem;
   color: 000000;
   letter-spacing: 1px;
-  text-align: right;
   text-transform: uppercase;
   font-family: "Black Han Sans", sans-serif;
   font-weight: 100;
-  display: block;
-  padding-top: 10px;
+  padding-top: 40px;
+  display: flex;
+}
 
-  /*background-color: red;*/
+.menu_align_left {
+  text-align: left;
+}
 
+.menu_align_center {
+  text-align: center;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.menu_align_right {
+  text-align: right;
 }
 
 /* -------- class P --------- */
@@ -353,6 +358,10 @@ footer {
     padding-top: 10px;
     float: right;
     /*background-color: red;*/
+  }
+
+  .menu__item> div {
+    display: inline;
   }
 
   .container {
