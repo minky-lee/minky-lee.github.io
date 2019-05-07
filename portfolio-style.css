@@ -61,12 +61,6 @@ footer {
   margin-top: 4em;
 }
 
-#clearRT{
-  clear: right;
-  margin-right:6em;
-  display: inline-block;
-}
-
 #floatLF{
   float: left;
   margin-left: 6em;
