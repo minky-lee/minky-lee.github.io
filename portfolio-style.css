@@ -160,6 +160,19 @@ footer {
   margin-bottom: 2em;
 }
 
+/* -------- class G --------- */
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.grid> img {
+  width: 320px;
+  height: 320px;
+
+}
+
 /* -------- class H--------- */
 
 .home {
